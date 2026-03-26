@@ -30,8 +30,8 @@ export const client = {
   twitter: "",
 
   // Reviews
-  googleRating: "5.0",
-  reviewCount: "0",
+  googleRating: "5",
+  reviewCount: "6",
 
   // Services
   services: [
@@ -79,9 +79,12 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Happy Customer", rating: 5, text: "Excellent work, very professional team. Would highly recommend to anyone looking for quality landscaping.", date: "2025" },
-    { name: "Satisfied Client", rating: 5, text: "Transformed our garden completely. Great communication throughout the project.", date: "2025" },
-    { name: "Local Resident", rating: 5, text: "Reliable, punctual and the finished result exceeded our expectations.", date: "2025" },
+    { name: "Pat Bavin", rating: 5, text: "We first had Invicta visit us in July and presented him with an area of dying grass and weeds where there was once a lawn freshly laid in 2020. He treated the area and said not to worry. Two weeks later we were witnessing a …  ", date: "2 years ago" },
+    { name: "Annaliese Bush", rating: 5, text: "I’ve had 3 treatments on my lawn with Invicta Lawn Care and I couldn’t be happier. It’s made such a difference the lawn has no weeds and looks really good, better than it has ever been. Thank you Danni for all your good work.  ", date: "2 years ago" },
+    { name: "Lucas D", rating: 5, text: "I invited this firm out twice.  1st for some renovation work. The firm admitted they were busy and could …    Response from the owner 3 years agoHi Lucas, Thanks for leaving a review and I would like to come back to you on both of your points here.", date: "3 years ago" },
+    { name: "Julie Bartlett", rating: 5, text: "So pleased with my lawn after just two treatments , it looks plush and green and the weeds are gone . Highly recommend Invicta lawn care . ", date: "2 years ago" },
+    { name: "John Lowden", rating: 5, text: "Invicta Lawn Care has transformed my lawn and it is now the envy of my family. I have had other lawn care specialists in the past but none as good as Danny. ", date: "2 years ago" },
+    { name: "Roy Parfitt", rating: 5, text: "Excellent service,you will not be disappointed. ", date: "Edited 6 years ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO

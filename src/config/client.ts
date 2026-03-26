@@ -79,12 +79,12 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Pat Bavin", rating: 5, text: "We first had Invicta visit us in July and presented him with an area of dying grass and weeds where there was once a lawn freshly laid in 2020. He treated the area and said not to worry. Two weeks later we were witnessing a …  ", date: "2 years ago" },
-    { name: "Annaliese Bush", rating: 5, text: "I’ve had 3 treatments on my lawn with Invicta Lawn Care and I couldn’t be happier. It’s made such a difference the lawn has no weeds and looks really good, better than it has ever been. Thank you Danni for all your good work.  ", date: "2 years ago" },
-    { name: "Lucas D", rating: 5, text: "I invited this firm out twice.  1st for some renovation work. The firm admitted they were busy and could …    Response from the owner 3 years agoHi Lucas, Thanks for leaving a review and I would like to come back to you on both of your points here.", date: "3 years ago" },
-    { name: "Julie Bartlett", rating: 5, text: "So pleased with my lawn after just two treatments , it looks plush and green and the weeds are gone . Highly recommend Invicta lawn care . ", date: "2 years ago" },
-    { name: "John Lowden", rating: 5, text: "Invicta Lawn Care has transformed my lawn and it is now the envy of my family. I have had other lawn care specialists in the past but none as good as Danny. ", date: "2 years ago" },
-    { name: "Roy Parfitt", rating: 5, text: "Excellent service,you will not be disappointed. ", date: "Edited 6 years ago" },
+    { name: "Julie Bartlett", rating: 5, text: "So pleased with my lawn after just two treatments , it looks plush and green and the weeds are gone . Highly recommend Invicta lawn care .", date: "2 years ago" },
+    { name: "John Lowden", rating: 5, text: "Invicta Lawn Care has transformed my lawn and it is now the envy of my family. I have had other lawn care specialists in the past but none as good as Danny.", date: "2 years ago" },
+    { name: "Annaliese Bush", rating: 5, text: "I’ve had 3 treatments on my lawn with Invicta Lawn Care and I couldn’t be happier. It’s made such a difference the lawn has no weeds and looks really good, better than it has ever been. Thank you Danni for all your good work.", date: "2 years ago", badge: "Local Guide" },
+    { name: "Pat Bavin", rating: 5, text: "We first had Invicta visit us in July and presented him with an area of dying grass and weeds where there was once a lawn freshly laid in 2020. He treated the area and said not to worry. Two weeks later we were witnessing a miracle as the weeds shrivelled and disappeared and the grass spread out and returned to a good looking lawn. He called today with the Autumn treatment. The work was completed in 10 minutes so we know the lawn will continue to look it's best for the rest of the year. !!! We couldn't be happier with the service we have received.", date: "2 years ago" },
+    { name: "Lucas D", rating: 1, text: "I invited this firm out twice.  1st for some renovation work. The firm admitted they were busy and could immediately do the work and suggested it would be 3/4 month wait until Autumn. Requested a quote, nothing received.  2nd occasion, I invited the firm back much later in the year and requested a quote for a treatment. Quoted on the day and agreed timings. Firm never returned.  This review is honest representation of my personal experiences.", date: "3 years ago" },
+    { name: "Roy Parfitt", rating: 5, text: "Excellent service,you will not be disappointed.", date: "Edited 6 years ago", badge: "Local Guide" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
